@@ -7,10 +7,14 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prepare": "patch-package"
   },
   "dependencies": {
-    "astro": "^1.1.5",
+    "astro": "^1.1.5"
+  },
+  "devDependencies": {
+    "@milahu/patch-package": "^6.4.14",
     "astro-imagetools": "^0.6.10"
   }
 }
